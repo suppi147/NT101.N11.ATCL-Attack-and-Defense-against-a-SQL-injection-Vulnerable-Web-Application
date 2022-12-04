@@ -6,7 +6,7 @@
 
 ## Attack and Defense against a SQL injection Vulnerable Web Application
 
-- This is our final term project in Network Security class. After complete this project we has a deeper understanding of how SQL injection works and an efficient way to against it.
+- This is our final term project in Network Security class. After complete this project we has a deeper understanding of how SQL injection works and an efficient way to secure against it.
 - In this repo includes our explaination of deployment, attack vector and defense mechanism of our project.
 - There will be 4 main folders:
     - Project-walk-through: this folder contains details about our project work flow.
