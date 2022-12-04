@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@100;200;300;400;500;600;700;800;900&family=Dancing+Script&display=swap');
+*{
+	margin: 0;/*thut dong*/
+	padding: 0;/*cach dong so voi dong duoi*/
+	box-sizing: border-box;/*box*/
+	font-family: 'Caveat';
+}
+
+h1{
+	font-size: 70px;
+	line-height: 64px;/*cach dong*/
+	color: #222;
+}
+
+h2{
+	font-size: 46px;
+	line-height: 54px;
+	color: #222;
+}
+
+h4{
+	font-size: 30px;
+	color: #222;
+}
+
+h6{
+	font-weight: 700;/*in dam*/
+	font-size: 12px;
+}
+
+p{
+	font-size: 25px;
+	color: #465b52;
+	margin: 15px 0 20px 0;
+}
+.section-p1{
+	padding: 40px 80px;
+}
+.section-m1{
+	margin: 40px 0;
+}
+body{
+	width: 100%;
+}
+
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background: #FeF4eb;
+	box-shadow: 0 5px 15px rgba(0, 0, 2, 0);
+}
+
+#navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar li{
+	list-style: none;
+	padding: 0 15px;
+	
+}
+
+#navbar a{ 
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 600;
+	color: #1a1a1a;
+	transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+	color: #088178;
+}
+#hero{
+	background-image: url("f2.jpg");
+	height: 150vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top 100% right 0;
+	padding: 80px 40px;
+	
+}
+#product1{
+	text-align: center;
+	background: #FFFAFA;
+}
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+#product1 .pro{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin: 15px 0;
+	transition: 0.2s ease;
+}
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+#product1 .pro .des{
+	text-align: start;
+	padding: 10px 0;
+}
+
+#product1 .pro .des span{
+	color: #425F57;
+	font-size: 40px;
+}
+
+#product1 .pro .des h5{
+	color: #425F57;
+	font-size: 20px;
+}
+#product1 .pro .des h4{
+	color: #425F57;
+	font-size: 40px;
+}
+#product1 .pro .des i{
+	color: #425F57;
+}
+
+footer{
+	background: #f0bc6c;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+footer .col {
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;	
+}
+#prodetails{
+	display: flex;
+	background-color: #FFFAFA;
+}
+#prodetails .single-pro-details{
+	width: 35%;
+	padding-left: 100px;
+	padding-top: 80px;
+
+}
+
+#prodetails .single-pro-details h4{
+	padding: 20px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+	font-size: 26px;
+}
+#prodetails .single-pro-image{
+	width: 25%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+	margin: 15px 0;
+	transition: 0.2s ease;
+	margin-left: 350px;
+}
+#prodetails .single-pro-details input{
+	width: 50px;
+	height: 37px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+	outline: none;
+}
+#prodetails .single-pro-details span{
+	line-height: 25px;
+	font-size: 20px;
+}
+#prodetails .single-pro-details img{
+	border-radius: 20px;
+}
+/*
+#navbar li a.active::after{
+	content: "";
+	width: 30%;
+	height: 2px;
+	background: #088178;
+	position: apsolute;
+	bottom: -4px;
+	left: 20px;
+}
+*/
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 20px;
+  box-shadow: #422800 2px 2px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 16px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
