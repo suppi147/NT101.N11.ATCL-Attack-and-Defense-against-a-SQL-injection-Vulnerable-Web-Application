@@ -84,7 +84,7 @@
 - Our final result:
     - ![](https://i.imgur.com/TbqlYnr.png)
     - ![](https://i.imgur.com/5jOKr9e.png)
-### Part 2: Deploy attack vector
+### Part 2: Deploy defense mechanism
 - Now we will move to the defense mechanism
 - Pramaterize query
     - We will change the way we process our input
