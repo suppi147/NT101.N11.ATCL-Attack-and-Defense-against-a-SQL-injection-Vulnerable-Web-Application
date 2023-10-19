@@ -1,9 +1,7 @@
 ## Author
-    Trần Lê Khôi
-    Trần Đặng Hồng Loan
-    Hoàng Thanh Lâm
-
-
+    Trần Lê Khôi - 20521484
+    Trần Đặng Hồng Loan - 20521543
+    Hoàng Thanh Lâm - 20521513
 ## Attack and Defense against a SQL injection Vulnerable Web Application
 
 - This is our final term project in Network Security class. After completing this project we have a deeper understanding of how SQL injection works and an efficient way to secure against it.
